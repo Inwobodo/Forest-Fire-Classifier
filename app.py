@@ -1,5 +1,7 @@
 import gradio as gr
 from fastai.vision.all import *
+
+learn = load_learner('forest.pkl')
 labels = learn.dls.vocab
 
 
