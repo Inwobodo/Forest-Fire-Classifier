@@ -18,5 +18,6 @@ gr.Interface(fn=predict, #model function
              outputs=gr.outputs.Label(num_top_classes=2),
              title=title,
              description=description,
+             examples=['herciles.jpg']
              interpretation='default',
              enable_queue=True).launch()
