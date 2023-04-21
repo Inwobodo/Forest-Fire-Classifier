@@ -18,6 +18,6 @@ gr.Interface(fn=predict, #model function
              outputs=gr.outputs.Label(num_top_classes=2),
              title=title,
              description=description,
-             examples=['herciles.jpg']
+             examples=['hercules.jpg','aerial-top-view-forest-tree-260nw-2033096327.webp']
              interpretation='default',
              enable_queue=True).launch()
